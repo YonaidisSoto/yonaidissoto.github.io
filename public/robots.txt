@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sotoyonaidis29.github.io/Yonaidissoto/sitemap.xml

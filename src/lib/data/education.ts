@@ -1,0 +1,35 @@
+import type { EducationItem, StatCounter } from "@/lib/types";
+
+export const educationItems: EducationItem[] = [
+  {
+    id: "hospitality-management-degree",
+    title: "Hospitality Management",
+    institution: "Degree Program",
+    period: "Completed",
+    description:
+      "Foundational studies in hotel operations, front office management, and guest service standards.",
+  },
+  {
+    id: "professional-certifications",
+    title: "Professional Certifications",
+    institution: "AI, Automation & Prompt Engineering",
+    period: "2025 — Present",
+    description:
+      "Ongoing professional certifications in n8n workflow automation, prompt engineering, and generative AI content.",
+  },
+  {
+    id: "continuous-learning",
+    title: "Continuous Learning",
+    institution: "Self-directed",
+    period: "Ongoing",
+    description:
+      "Actively studying new AI models, automation platforms, and API integration patterns to stay current with a fast-moving field.",
+  },
+];
+
+export const statCounters: StatCounter[] = [
+  { id: "workflows", label: "Workflows Automated", value: 15, suffix: "+" },
+  { id: "hours", label: "Hours Saved Monthly", value: 40, suffix: "+" },
+  { id: "years", label: "Years in Hospitality", value: 3, suffix: "+" },
+  { id: "certifications", label: "Certifications", value: 4, suffix: "" },
+];

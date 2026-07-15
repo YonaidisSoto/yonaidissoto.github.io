@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-white text-navy-950 antialiased dark:bg-navy-950 dark:text-slate-100;
+  }
+
+  ::selection {
+    @apply bg-accent-400/30;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-navy-700 via-accent-600 to-accent-500 bg-clip-text text-transparent dark:from-accent-300 dark:via-accent-400 dark:to-accent-500;
+  }
+
+  .section-padding {
+    @apply py-20 sm:py-28;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-slate-200/70 bg-white/80 shadow-sm backdrop-blur-sm dark:border-white/10 dark:bg-navy-900/60;
+  }
+}
+
+/* Respect reduced-motion preference for scroll behavior */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,29 @@
+import type { ExperienceItem } from "@/lib/types";
+
+export const experienceItems: ExperienceItem[] = [
+  {
+    id: "ai-automation-projects",
+    role: "AI Automation Specialist",
+    organization: "Self-employed / Independent Projects",
+    period: "2024 — Present",
+    location: "Remote",
+    current: true,
+    description: [
+      "Design and build AI-powered workflow automations for hospitality and business use cases using n8n, OpenAI, and Make.",
+      "Develop prompt-engineered tools for content generation, SOP documentation, and guest communication.",
+      "Integrate REST APIs and webhooks to connect operational systems and eliminate manual data entry.",
+    ],
+  },
+  {
+    id: "yotel-miami",
+    role: "Front Office Operations",
+    organization: "YOTEL Miami",
+    period: "2022 — 2024",
+    location: "Miami, FL",
+    description: [
+      "Managed daily front office operations, guest check-in/check-out, and reservation workflows using Oracle OPERA Cloud PMS.",
+      "Identified repetitive, manual operational processes and proposed automation-driven improvements.",
+      "Collaborated cross-functionally to improve guest experience and operational efficiency.",
+    ],
+  },
+];
