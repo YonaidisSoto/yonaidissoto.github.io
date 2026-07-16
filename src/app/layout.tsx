@@ -19,11 +19,8 @@ const plusJakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-// Trailing slash matters: metadataBase resolves *relative* asset paths below
-// against this URL, and the GitHub Pages deployment lives under the
-// `/Yonaidissoto` sub-path (see next.config.mjs `basePath`). Without the
-// trailing slash, relative paths would resolve against the domain root
-// instead of the repo sub-path.
+// Trailing slash ensures relative asset paths below (og-image.png,
+// favicon.svg, site.webmanifest) resolve against the site root.
 const metadataBase = new URL(`${siteConfig.url}/`);
 
 export const metadata: Metadata = {

@@ -3,11 +3,11 @@ import { fileURLToPath } from "node:url";
 
 /** @type {import('next').NextConfig} */
 
-// GitHub Pages project-site config.
-// Repo: https://github.com/sotoyonaidis29/Yonaidissoto
-// Deployed URL: https://sotoyonaidis29.github.io/Yonaidissoto
-const repoName = "Yonaidissoto";
-const isProd = process.env.NODE_ENV === "production";
+// GitHub Pages *user site* config.
+// Repo: https://github.com/yonaidissoto/yonaidissoto.github.io
+// A repo named exactly "<username>.github.io" is served at the domain root,
+// so no basePath/assetPrefix is needed (unlike a regular project-site repo).
+// Deployed URL: https://yonaidissoto.github.io/
 
 const nextConfig = {
   // Pins the workspace root to this project so a sibling lockfile outside
@@ -15,8 +15,6 @@ const nextConfig = {
   // doesn't get mistakenly inferred as the root.
   outputFileTracingRoot: path.dirname(fileURLToPath(import.meta.url)),
   output: "export",
-  basePath: isProd ? `/${repoName}` : "",
-  assetPrefix: isProd ? `/${repoName}/` : "",
   images: {
     unoptimized: true,
   },

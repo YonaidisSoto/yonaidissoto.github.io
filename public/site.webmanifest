@@ -2,14 +2,14 @@
   "name": "Yonaidis Soto - AI Automation Specialist",
   "short_name": "Yonaidis Soto",
   "description": "AI Automation Specialist bridging hospitality operations and intelligent workflow automation.",
-  "start_url": "/Yonaidissoto/",
-  "scope": "/Yonaidissoto/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#050b18",
   "theme_color": "#0a1428",
   "icons": [
     {
-      "src": "/Yonaidissoto/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }

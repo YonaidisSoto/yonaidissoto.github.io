@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sotoyonaidis29.github.io/Yonaidissoto/sitemap.xml
+Sitemap: https://yonaidissoto.github.io/sitemap.xml

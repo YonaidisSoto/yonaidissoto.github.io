@@ -5,12 +5,12 @@ export const siteConfig = {
   tagline: "AI Automation Specialist | Workflow Automation & Hospitality Technology",
   description:
     "Yonaidis Soto is an AI Automation Specialist helping hospitality and business teams design AI-powered workflow automation, from n8n and OpenAI integrations to front office and guest-experience process improvement.",
-  url: "https://sotoyonaidis29.github.io/Yonaidissoto",
-  repoUrl: "https://github.com/sotoyonaidis29/Yonaidissoto",
+  url: "https://yonaidissoto.github.io",
+  repoUrl: "https://github.com/yonaidissoto/yonaidissoto.github.io",
   email: "yonaidissoto2@gmail.com",
   links: {
     linkedin: "https://www.linkedin.com/in/yonaidis-soto-9674b3214",
-    github: "https://github.com/sotoyonaidis29",
+    github: "https://github.com/yonaidissoto",
     resume: "/resume.pdf",
   },
   keywords: [

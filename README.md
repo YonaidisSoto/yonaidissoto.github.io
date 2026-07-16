@@ -65,19 +65,34 @@ info (name, links, email, SEO keywords) without touching component markup.
 
 ## Deploying to GitHub Pages
 
-This repo is configured to deploy to **https://sotoyonaidis29.github.io/Yonaidissoto**.
+This repo is named `yonaidissoto.github.io` — GitHub's special naming convention for a
+**user site**, so it deploys to the domain root: **https://yonaidissoto.github.io/**
+(no `basePath`/repo-name sub-path needed, unlike a regular project-site repo).
 
-1. Push this project to the `sotoyonaidis29/Yonaidissoto` repository, on the `main` branch.
+1. Push this project to the `yonaidissoto/yonaidissoto.github.io` repository, on the
+   `main` branch.
 2. In the repo, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 3. Push to `main` (or run the workflow manually from the **Actions** tab) — the
    `.github/workflows/deploy.yml` workflow builds the static export (`npm run build`,
    which runs `next build` with `output: "export"`) and publishes the `out/` folder.
-4. The site will be live at `https://sotoyonaidis29.github.io/Yonaidissoto/` a minute or
-   two after the workflow finishes.
+4. The site will be live at `https://yonaidissoto.github.io/` a minute or two after the
+   workflow finishes.
 
-If the repo is ever renamed, update `repoName` in `next.config.mjs` (and the URLs in
-`src/lib/data/site.ts`, `public/robots.txt`, `public/sitemap.xml`, and
-`public/site.webmanifest`) to match.
+If you switch back to a regular project-site repo (any name other than
+`<username>.github.io`), you'll need to re-add `basePath`/`assetPrefix` in
+`next.config.mjs` and update the URLs in `src/lib/data/site.ts`, `public/robots.txt`,
+`public/sitemap.xml`, and `public/site.webmanifest` accordingly.
+
+### Using a custom domain instead
+
+To point a custom domain (e.g. `yonaidissoto.com`) at this site instead of
+`yonaidissoto.github.io`:
+
+1. Add a `public/CNAME` file containing just the domain name.
+2. At your domain registrar, add the DNS records GitHub Pages requests (Settings →
+   Pages → Custom domain in this repo will show them once you enter the domain).
+3. Update `siteConfig.url` in `src/lib/data/site.ts` and the URLs in `public/robots.txt`
+   and `public/sitemap.xml` to the new domain.
 
 ### Building locally
 
