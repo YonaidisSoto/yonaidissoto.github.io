@@ -3,6 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { skillGroups } from "@/lib/data/skills";
+import { iconRegistry } from "@/lib/iconRegistry";
 
 export function Skills() {
   return (
@@ -16,7 +17,7 @@ export function Skills() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group, index) => {
-            const Icon = group.icon;
+            const Icon = iconRegistry[group.icon] ?? iconRegistry.cpu;
             return (
               <Card key={group.id} delay={(index % 3) * 0.08}>
                 <div className="flex items-center gap-3">

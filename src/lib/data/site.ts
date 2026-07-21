@@ -1,53 +1,5 @@
-export const siteConfig = {
-  name: "Yonaidis Soto",
-  title: "AI Automation Specialist",
-  // Short, keyword-rich tagline used in <title> and hero.
-  tagline: "AI Automation Specialist | Workflow Automation & Hospitality Technology",
-  description:
-    "Yonaidis Soto is an AI Automation Specialist helping hospitality and business teams design AI-powered workflow automation, from n8n and OpenAI integrations to front office and guest-experience process improvement.",
-  url: "https://yonaidissoto.github.io",
-  repoUrl: "https://github.com/yonaidissoto/yonaidissoto.github.io",
-  email: "yonaidissoto2@gmail.com",
-  links: {
-    linkedin: "https://www.linkedin.com/in/yonaidis-soto-9674b3214",
-    github: "https://github.com/yonaidissoto",
-    resume: "/resume.pdf",
-  },
-  keywords: [
-    "Artificial Intelligence",
-    "AI Automation",
-    "Workflow Automation",
-    "Business Process Automation",
-    "Automation",
-    "AI Content",
-    "AI Content Editing",
-    "Generative AI",
-    "Prompt Engineering",
-    "OpenAI",
-    "ChatGPT",
-    "n8n",
-    "Make",
-    "Zapier",
-    "API Integration",
-    "REST APIs",
-    "Webhooks",
-    "Workflow Design",
-    "Digital Transformation",
-    "Process Improvement",
-    "Hospitality Technology",
-    "Hospitality Operations",
-    "Hotel Operations",
-    "Oracle OPERA Cloud PMS",
-    "Front Office Operations",
-    "Guest Experience",
-    "Operational Efficiency",
-    "Business Automation",
-    "No-Code",
-    "Low-Code",
-    "AI Solutions",
-    "Operations Management",
-    "Content Optimization",
-  ],
-};
+import siteContent from "@/content/site.json";
+
+export const siteConfig = siteContent;
 
 export type SiteConfig = typeof siteConfig;

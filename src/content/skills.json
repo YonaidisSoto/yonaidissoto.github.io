@@ -1,0 +1,59 @@
+[
+  {
+    "id": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "icon": "cpu",
+    "skills": [
+      "Prompt Engineering",
+      "Generative AI",
+      "OpenAI API",
+      "ChatGPT",
+      "AI Content Editing",
+      "AI Solutions Design"
+    ]
+  },
+  {
+    "id": "automation",
+    "title": "Automation",
+    "icon": "zap",
+    "skills": [
+      "n8n",
+      "Make",
+      "Zapier",
+      "Workflow Design",
+      "API Integration",
+      "Webhooks",
+      "No-Code / Low-Code"
+    ]
+  },
+  {
+    "id": "hospitality",
+    "title": "Hospitality",
+    "icon": "home",
+    "skills": [
+      "Front Office Operations",
+      "Oracle OPERA Cloud PMS",
+      "Guest Experience",
+      "Reservations Management",
+      "Hotel Operations"
+    ]
+  },
+  {
+    "id": "development",
+    "title": "Development",
+    "icon": "code",
+    "skills": ["JavaScript / TypeScript", "REST APIs", "Next.js", "Git / GitHub", "JSON & Data Mapping"]
+  },
+  {
+    "id": "soft-skills",
+    "title": "Soft Skills",
+    "icon": "users",
+    "skills": [
+      "Process Improvement",
+      "Problem Solving",
+      "Cross-team Communication",
+      "Attention to Detail",
+      "Continuous Learning"
+    ]
+  }
+]

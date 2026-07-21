@@ -1,13 +1,4 @@
+import navContent from "@/content/nav.json";
 import type { NavItem } from "@/lib/types";
 
-export const navItems: NavItem[] = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Certifications", href: "#certifications" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Education", href: "#education" },
-  { label: "Contact", href: "#contact" },
-];
+export const navItems = navContent as NavItem[];

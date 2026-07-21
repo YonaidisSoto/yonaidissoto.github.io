@@ -1,4 +1,4 @@
-import type { IconType } from "react-icons";
+import type { IconKey } from "@/lib/iconRegistry";
 
 export interface NavItem {
   label: string;
@@ -9,7 +9,7 @@ export interface Service {
   id: string;
   title: string;
   description: string;
-  icon: IconType;
+  icon: IconKey;
   keywords: string[];
 }
 
@@ -37,7 +37,7 @@ export interface Certification {
 export interface SkillGroup {
   id: string;
   title: string;
-  icon: IconType;
+  icon: IconKey;
   skills: string[];
 }
 

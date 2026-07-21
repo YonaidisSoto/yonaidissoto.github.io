@@ -2,6 +2,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { services } from "@/lib/data/services";
+import { iconRegistry } from "@/lib/iconRegistry";
 
 export function Services() {
   return (
@@ -19,7 +20,7 @@ export function Services() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => {
-            const Icon = service.icon;
+            const Icon = iconRegistry[service.icon] ?? iconRegistry.cpu;
             return (
               <Card key={service.id} delay={(index % 3) * 0.08}>
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-navy-950/5 text-navy-950 dark:bg-white/10 dark:text-accent-300">
