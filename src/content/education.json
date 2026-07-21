@@ -11,7 +11,7 @@
       "id": "professional-certifications",
       "title": "Professional Certifications",
       "institution": "AI, Automation & Prompt Engineering",
-      "period": "2025 — Present",
+      "period": "2026",
       "description": "Ongoing professional certifications in n8n workflow automation, prompt engineering, and generative AI content."
     },
     {
@@ -23,9 +23,29 @@
     }
   ],
   "stats": [
-    { "id": "workflows", "label": "Workflows Automated", "value": 15, "suffix": "+" },
-    { "id": "hours", "label": "Hours Saved Monthly", "value": 40, "suffix": "+" },
-    { "id": "years", "label": "Years in Hospitality", "value": 3, "suffix": "+" },
-    { "id": "certifications", "label": "Certifications", "value": 4, "suffix": "" }
+    {
+      "id": "workflows",
+      "label": "Workflows Automated",
+      "value": 15,
+      "suffix": "+"
+    },
+    {
+      "id": "hours",
+      "label": "Hours Saved Monthly",
+      "value": 40,
+      "suffix": "+"
+    },
+    {
+      "id": "years",
+      "label": "Years in Hospitality",
+      "value": 7,
+      "suffix": "+"
+    },
+    {
+      "id": "certifications",
+      "label": "Certifications",
+      "value": 4,
+      "suffix": ""
+    }
   ]
 }
