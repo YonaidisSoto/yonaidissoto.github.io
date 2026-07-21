@@ -100,5 +100,41 @@
       "Hospitality Technology",
       "Automation"
     ]
+  },
+  {
+    "id": "ai_concierge_chatbot",
+    "title": "AI Concierge & Smart Chatbots",
+    "description": "Development of AI-powered virtual assistants for WhatsApp and web to assist resort guests 24/7 with inquiries, itineraries, facility schedules, and instant reservations.",
+    "icon": "cpu",
+    "keywords": [
+      "AI-powered virtual assistants, guests"
+    ]
+  },
+  {
+    "id": "vip_loyalty_managment",
+    "title": "Automated VIP & Loyalty Management",
+    "description": "Custom workflows designed to automatically identify high-profile guests, personalize arrival preferences, dispatch special requests across departments, and enhance guest retention.",
+    "icon": "cpu",
+    "keywords": [
+      "identify high-profile guests"
+    ]
+  },
+  {
+    "id": "hotel_review",
+    "title": "Hotel Review & Feedback Automation",
+    "description": "Automated systems to capture real-time guest feedback during their stay, utilizing AI sentiment analysis to alert management to critical issues before public reviews are posted.",
+    "icon": "cpu",
+    "keywords": [
+      "real-time guest feedback"
+    ]
+  },
+  {
+    "id": "hospitality_task",
+    "title": "Hospitality Task & Operations Dispatch",
+    "description": "Seamless automation connecting guest service requests directly with housekeeping, maintenance, and F&B teams to optimize response times and operational efficiency.",
+    "icon": "cpu",
+    "keywords": [
+      "optimize response times,Seamless automation,operational efficiency"
+    ]
   }
 ]
