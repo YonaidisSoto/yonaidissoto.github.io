@@ -4,7 +4,12 @@
     "title": "AI Guest Communication Workflow",
     "problem": "Front desk teams were manually sending repetitive pre-arrival, check-in, and post-stay messages, leading to delays and inconsistent guest experience.",
     "solution": "Built an n8n workflow that triggers on reservation status changes, uses OpenAI to personalize messaging, and delivers it through the guest's preferred channel automatically.",
-    "technologies": ["n8n", "OpenAI API", "Webhooks", "REST APIs"],
+    "technologies": [
+      "n8n",
+      "OpenAI API",
+      "Webhooks",
+      "REST APIs"
+    ],
     "results": [
       "Reduced manual messaging time by an estimated 80%",
       "Consistent, on-brand guest communication at every touchpoint"
@@ -18,7 +23,11 @@
     "title": "Hotel Reservation Automation",
     "problem": "Reservation confirmations, modifications, and cancellations required repetitive manual entry across the PMS and follow-up communication tools.",
     "solution": "Designed an automated workflow that syncs reservation events with downstream systems and triggers confirmation, reminder, and follow-up sequences without manual intervention.",
-    "technologies": ["n8n", "Oracle OPERA Cloud PMS", "API Integration"],
+    "technologies": [
+      "n8n",
+      "Oracle OPERA Cloud PMS",
+      "API Integration"
+    ],
     "results": [
       "Eliminated duplicate manual data entry",
       "Faster, more reliable confirmation delivery to guests"
@@ -32,7 +41,11 @@
     "title": "Social Media Automation",
     "problem": "Manually drafting, formatting, and scheduling social content across platforms consumed hours each week with inconsistent posting cadence.",
     "solution": "Created an automated content pipeline that generates draft copy with generative AI, applies brand guidelines, and schedules posts across platforms on a fixed cadence.",
-    "technologies": ["n8n", "OpenAI API", "Make"],
+    "technologies": [
+      "n8n",
+      "OpenAI API",
+      "Make"
+    ],
     "results": [
       "Consistent weekly posting schedule with zero missed posts",
       "Significant reduction in content preparation time"
@@ -46,7 +59,12 @@
     "title": "WhatsApp Automation",
     "problem": "Guest inquiries arriving through WhatsApp required constant manual monitoring and repetitive responses to common questions.",
     "solution": "Implemented a WhatsApp Business API automation with an AI-assisted response layer for common questions and clear handoff rules to a human agent for complex requests.",
-    "technologies": ["n8n", "WhatsApp Business API", "OpenAI API", "Webhooks"],
+    "technologies": [
+      "n8n",
+      "WhatsApp Business API",
+      "OpenAI API",
+      "Webhooks"
+    ],
     "results": [
       "Faster first-response time on guest inquiries",
       "Reduced repetitive workload on front office staff"
@@ -56,39 +74,16 @@
     "gradient": "from-navy-700 via-navy-500 to-accent-400"
   },
   {
-    "id": "openai-content-generator",
-    "title": "OpenAI Content Generator",
-    "problem": "Producing first drafts for descriptions, emails, and marketing copy from scratch was slow and inconsistent in tone.",
-    "solution": "Built a prompt-engineered content generation tool on top of the OpenAI API with reusable templates, tone controls, and an editing pass for accuracy and brand voice.",
-    "technologies": ["OpenAI API", "Prompt Engineering", "n8n"],
-    "results": [
-      "Faster first-draft turnaround for recurring content types",
-      "More consistent tone and structure across outputs"
-    ],
-    "githubUrl": "#",
-    "demoUrl": "#",
-    "gradient": "from-accent-500 via-accent-700 to-navy-900"
-  },
-  {
-    "id": "ai-sop-generator",
-    "title": "AI SOP Generator",
-    "problem": "Documenting standard operating procedures for hotel departments was time-consuming and inconsistent in format across teams.",
-    "solution": "Developed a generative AI tool that converts operational notes and interviews into structured, formatted SOP documents ready for team review.",
-    "technologies": ["OpenAI API", "Prompt Engineering", "AI Content Editing"],
-    "results": [
-      "Standardized SOP format across departments",
-      "Significantly faster documentation turnaround"
-    ],
-    "githubUrl": "#",
-    "demoUrl": "#",
-    "gradient": "from-navy-900 via-navy-700 to-accent-600"
-  },
-  {
     "id": "daily-hotel-reports-automation",
     "title": "Daily Hotel Reports Automation",
     "problem": "Compiling daily occupancy, revenue, and operational reports from multiple systems required manual copy-paste work every morning.",
     "solution": "Automated the collection, formatting, and distribution of daily reports, pulling data from source systems on a schedule and delivering a formatted summary to stakeholders.",
-    "technologies": ["n8n", "Oracle OPERA Cloud PMS", "API Integration", "REST APIs"],
+    "technologies": [
+      "n8n",
+      "Oracle OPERA Cloud PMS",
+      "API Integration",
+      "REST APIs"
+    ],
     "results": [
       "Daily reports delivered automatically every morning",
       "Removed manual reporting work across the front office team"
