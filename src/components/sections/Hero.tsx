@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { FiArrowRight } from "react-icons/fi";
 import { siteConfig } from "@/lib/data/site";
 import { Container } from "@/components/ui/Container";
 import { LinkButton } from "@/components/ui/Button";
-import { AvatarPlaceholder } from "@/components/ui/AvatarPlaceholder";
 import { Badge } from "@/components/ui/Badge";
 
 export function Hero() {
@@ -69,10 +69,16 @@ export function Hero() {
         >
           <div className="relative animate-float">
             <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-accent-400/30 to-navy-700/30 blur-2xl" />
-            <AvatarPlaceholder
-              initials="YS"
-              className="aspect-square w-full rounded-[1.75rem] shadow-2xl shadow-navy-950/20"
-            />
+            <div className="relative aspect-square w-full overflow-hidden rounded-[1.75rem] shadow-2xl shadow-navy-950/20">
+              <Image
+                src="/portrait.png.png"
+                alt={`${siteConfig.name} portrait`}
+                fill
+                priority
+                className="object-cover"
+                sizes="(min-width: 1024px) 24rem, 80vw"
+              />
+            </div>
           </div>
         </motion.div>
       </Container>
