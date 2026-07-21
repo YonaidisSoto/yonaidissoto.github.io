@@ -1,6 +1,6 @@
 [
   {
-    "id": "Ai-workflow-automation",
+    "id": "ai-workflow-automation",
     "title": "AI Workflow Automation",
     "description": "Design and build end-to-end automations that connect your tools with AI models, using n8n, Make, and Zapier to remove repetitive manual work.",
     "icon": "cpu",
