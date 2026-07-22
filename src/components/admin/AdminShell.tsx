@@ -5,6 +5,7 @@ import { FiLogOut } from "react-icons/fi";
 import { TokenGate } from "@/components/admin/TokenGate";
 import { ListEditor } from "@/components/admin/ListEditor";
 import { SiteInfoEditor } from "@/components/admin/SiteInfoEditor";
+import { AboutEditor } from "@/components/admin/AboutEditor";
 import { EducationEditor } from "@/components/admin/EducationEditor";
 import { contentSections } from "@/lib/admin/schemas";
 import { clearStoredToken } from "@/lib/github/client";
@@ -12,6 +13,7 @@ import { cn } from "@/lib/utils/cn";
 
 const tabs = [
   { id: "site", label: "Site Info" },
+  { id: "about", label: "About" },
   ...contentSections.map((section) => ({ id: section.id, label: section.label })),
   { id: "education", label: "Education & Stats" },
 ];
@@ -66,6 +68,7 @@ export function AdminShell() {
 
       <main className="flex-1">
         {activeTab === "site" && <SiteInfoEditor token={token} />}
+        {activeTab === "about" && <AboutEditor token={token} />}
         {activeTab === "education" && <EducationEditor token={token} />}
         {activeSection && <ListEditor section={activeSection} token={token} />}
       </main>

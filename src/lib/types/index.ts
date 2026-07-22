@@ -65,3 +65,10 @@ export interface StatCounter {
   value: number;
   suffix?: string;
 }
+
+export interface AboutContent {
+  eyebrow: string;
+  title: string;
+  description: string;
+  paragraphs: string[];
+}
