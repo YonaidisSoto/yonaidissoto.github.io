@@ -42,7 +42,13 @@
     "id": "development",
     "title": "Development",
     "icon": "code",
-    "skills": ["JavaScript / TypeScript", "REST APIs", "Next.js", "Git / GitHub", "JSON & Data Mapping"]
+    "skills": [
+      "JavaScript / TypeScript",
+      "REST APIs",
+      "Next.js",
+      "Git / GitHub",
+      "JSON & Data Mapping"
+    ]
   },
   {
     "id": "soft-skills",
@@ -54,6 +60,14 @@
       "Cross-team Communication",
       "Attention to Detail",
       "Continuous Learning"
+    ]
+  },
+  {
+    "id": "customer-service",
+    "title": "Customer Service",
+    "icon": "cpu",
+    "skills": [
+      "Guestexperience,Satisfaction"
     ]
   }
 ]
