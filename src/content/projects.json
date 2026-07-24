@@ -1,7 +1,7 @@
 [
   {
     "id": "ai-guest-communication-workflow",
-    "title": "AI Guest Communication Workflow",
+    "title": "AI Hotel Guest Reservation Status Notifier",
     "problem": "Front desk teams were manually sending repetitive pre-arrival, check-in, and post-stay messages, leading to delays and inconsistent guest experience.",
     "solution": "Built an n8n workflow that triggers on reservation status changes, uses OpenAI to personalize messaging, and delivers it through the guest's preferred channel automatically.",
     "technologies": [
@@ -15,7 +15,7 @@
       "Consistent, on-brand guest communication at every touchpoint"
     ],
     "githubUrl": "https://github.com/YonaidisSoto/AI-Guest-communication-Automation",
-    "demoUrl": "",
+    "demoUrl": "https://youtu.be/LpBIzyLkTLM",
     "gradient": "from-navy-700 via-navy-600 to-accent-600"
   },
   {
