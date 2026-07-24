@@ -15,7 +15,7 @@
       "Consistent, on-brand guest communication at every touchpoint"
     ],
     "githubUrl": "https://github.com/YonaidisSoto/AI-Guest-communication-Automation",
-    "demoUrl": "#",
+    "demoUrl": "",
     "gradient": "from-navy-700 via-navy-600 to-accent-600"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "id": "whatsapp-automation",
-    "title": "WhatsApp Automation",
+    "title": "WhatsApp Hotel Recepcionist Automation",
     "problem": "Guest inquiries arriving through WhatsApp required constant manual monitoring and repetitive responses to common questions.",
     "solution": "Implemented a WhatsApp Business API automation with an AI-assisted response layer for common questions and clear handoff rules to a human agent for complex requests.",
     "technologies": [
@@ -70,7 +70,7 @@
       "Reduced repetitive workload on front office staff"
     ],
     "githubUrl": "https://github.com/YonaidisSoto/Whatsapp-Automation",
-    "demoUrl": "#",
+    "demoUrl": "https://youtu.be/X_0rZt2kGDQ",
     "gradient": "from-navy-700 via-navy-500 to-accent-400"
   },
   {
